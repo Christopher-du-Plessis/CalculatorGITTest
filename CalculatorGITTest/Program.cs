@@ -21,6 +21,11 @@ namespace CalculatorGITTest
 
             Console.WriteLine(Answer);
 
+            Console.WriteLine("The calculator will now substract value 1 and 2");
+            Answer = value1 - value2;
+
+            Console.WriteLine(Answer);
+
             Console.WriteLine("Push any key to end the application . . .");
             Console.ReadKey();
         }
